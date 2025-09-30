@@ -35,6 +35,10 @@ public class Main {
         System.out.println("Nombre: " + nombre);
         System.out.println("Edad: " + edad);
         System.out.println("Dinero: " + dinero + " €");
+
+        System.out.println("El cliente de nombre " + nombre +
+                " con edad " + edad +
+                " tiene " + dinero + " euros.");
     }
 
 }

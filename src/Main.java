@@ -39,6 +39,25 @@ public class Main {
         System.out.println("El cliente de nombre " + nombre +
                 " con edad " + edad +
                 " tiene " + dinero + " euros.");
+
+
+        if (edad < 18) {
+            System.out.println("No puedes entrar. Eres menor de edad.");
+            return;
+        } else if (nivelAlcohol > 1.2) {
+            System.out.println("No puedes entrar. No estás en condiciones (alcohol > 1.2).");
+            return;
+        } else {
+            System.out.println("Bienvenido a la discoteca, " + nombre);
+        }
+
+
+
+
+
+
+
+
     }
 
 }
